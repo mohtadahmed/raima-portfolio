@@ -1,0 +1,45 @@
+:root{
+    --bg-primary-color: #7D6E83;
+    --primary-text-color: #DFD3C3;
+    --secondary-text-color: #F8EDE3;
+    --button-color: #D0B8A8;
+    --other-color: #594545;
+}
+
+body{
+    background-color: var(--bg-primary-color);
+    color: var(--primary-text-color);
+}
+
+.custom-btn{
+    color: var(--secondary-text-color);
+    background-color: var(--other-color);
+}
+
+.custom-btn:hover{
+    background-color: var(--secondary-text-color);
+    color: var(--other-color);
+}
+
+.custom-card{
+    background-color: #594545;
+}
+
+
+.social-links {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s;
+    margin: 10px;
+}
+
+.social-links a {
+    color: white;
+    padding: 20px;
+}
+
+.social-links a:hover {
+    /* color: #485460; */
+    color: var(--other-color);
+}
